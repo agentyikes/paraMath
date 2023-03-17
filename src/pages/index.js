@@ -1,11 +1,13 @@
 // Step 1: Import React
 import * as React from "react"
+import { Link } from "gatsby"
 
 // Step 2: Define your component
 const IndexPage = () => {
   return (
     <main>
       <h1>Welcome to paraMath site!</h1>
+      <Link to="/about">About </Link>
       <p>Here you can find the parnormal power of Mathemattics.</p>
     </main>
   )
