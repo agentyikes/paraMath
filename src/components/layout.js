@@ -13,6 +13,26 @@ const Layout = ({ pageTitle, children }) => {
             </Link>
           </li>
           <li className={navLinkItem}>
+            <Link to="/algebra" className={navLinkText}>
+              Algebra
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/calculus" className={navLinkText}>
+              Calculus
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/geometry" className={navLinkText}>
+              Geometry
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/trigonometry" className={navLinkText}>
+              Trigonometry
+            </Link>
+          </li>
+          <li className={navLinkItem}>
             <Link to="/about" className={navLinkText}>
               About
             </Link>

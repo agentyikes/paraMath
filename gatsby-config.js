@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `paraMath`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"]
 }
